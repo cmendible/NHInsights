@@ -81,10 +81,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\InsightsDbCommand.cs">
-      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="Infrastructure\InsightsDbCommand.cs" />
     <Compile Include="OracleManagedDataClientDriver.cs" />
     <Compile Include="Infrastructure\Link.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

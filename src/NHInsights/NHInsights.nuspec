@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata >
+    <id>NHInsights</id>
+    <version>$version$</version>
+    <authors>Carlos Mendible</authors>
+    <owners>Carlos Mendible</owners>
+    <dependencies>
+      <dependency id="Microsoft.ApplicationInsights" version="2.0.0" />
+      <dependency id="NHibernate" version="4.0.4.4000" />
+    </dependencies>
+    <summary>NHInsights: An OracleManagedDataClientDriver for NHibernate that will track the response times and success rates of your queries as dependencies using Application Insights Telemetry Client</summary>
+    <description>An OracleManagedDataClientDriver for NHibernate that will track the response times and success rates of your queries as dependencies using Application Insights Telemetry Client</description>
+    <language>en-US</language>
+    <title>NHInsights</title>
+    <projectUrl>https://github.com/cmendible/NHInsights</projectUrl>
+    <tags>NHibernate OracleManagedDataClientDriver Application Insights</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\NHInsights.dll" target="lib\net40" />
+  </files>
+</package>

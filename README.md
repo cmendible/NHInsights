@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/q56t9cuo4g5ete37?svg=true)](https://ci.appveyor.com/project/cmendible/nhinsights)
+
 # NHInsights
 
 An **OracleManagedDataClientDriver** for **NHibernate** that will track the response times and success rates of your queries as dependencies using **Application Insights** Telemetry Client
